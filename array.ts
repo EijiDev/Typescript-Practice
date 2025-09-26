@@ -1,10 +1,16 @@
 
-type User= {
-    name: string,
-    email: string,
-    contact: number 
+const superHeros: string[] = []
+const heroPower: Array<number> = []
+
+
+
+type User = {
+    name: string
+    isActive: boolean
 }
 
-function getUser(user: User) {
-    user.name
-}
+const allUser: User[] = []
+
+heroPower.push(2);
+superHeros.push("spiderman");
+allUser.push({name: "", isActive: true});
