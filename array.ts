@@ -4,12 +4,12 @@ const heroPower: Array<number> = []
 
 
 
-type User = {
+type Users = {
     name: string
     isActive: boolean
 }
 
-const allUser: User[] = []
+const allUser: Users[] = []
 
 heroPower.push(2);
 superHeros.push("spiderman");
