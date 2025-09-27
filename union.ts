@@ -32,3 +32,6 @@ function getDBId(id: number | string) {
         id.toLowerCase()
     } 
 }
+
+//mixed array
+const emptyArr: (number | string)[] = [1, 2, 3, "21"]
